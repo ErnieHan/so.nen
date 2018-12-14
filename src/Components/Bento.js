@@ -30,9 +30,9 @@ class Bento extends React.Component {
         <style>
           {`
           .bento-outline{
-              width:23%;
+              width:25%;
+              height:400px;
               background:#ccc;
-              padding:1%;
               display:inline-block;
           }
           .bento-content{
@@ -60,22 +60,10 @@ class Bento extends React.Component {
             </div>
           </div>
         ))} */}
-        <div className="bento-outline">
-          <img src={img1} alt="" />
-        </div>
-        <div className="bento-outline">
-          <img src={img1} alt="" />
-        </div>
-        <div className="bento-outline">
-          <img src={img1} alt="" />
-        </div>
-        <div className="bento-outline">
-          <div className="bento-content">
-            <div className="bento-img">
-              <img src={img1} alt="" />
-            </div>
-          </div>
-        </div>
+        <div className="bento-outline" />
+        <div className="bento-outline" />
+        <div className="bento-outline" />
+        <div className="bento-outline" />
       </div>
     );
   }

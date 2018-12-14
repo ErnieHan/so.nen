@@ -8,7 +8,8 @@ class Logo extends React.Component {
         <style>
           {`
         .logo{
-          width:320px;
+          max-width:320px;
+          width:100%;
           display: inline-block;
         }
         `}
