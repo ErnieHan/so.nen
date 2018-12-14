@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../Assets/01.jpg";
+// import img1 from "../Assets/01.jpg";
 
 class Bento extends React.Component {
   render() {

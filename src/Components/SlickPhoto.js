@@ -14,11 +14,18 @@ class SlickPhoto extends React.Component {
       infinite: true,
       speed: 500,
       autoplay: true,
+      autoplaySpeed: 2000,
       slidesToShow: 1,
-      slidesToScroll: 1
+      slidesToScroll: 1,
+      pauseOnHover: false
     };
     return (
       <div>
+        <style>{`
+        .slick-prev:before, .slick-next:before{
+            display:none !important;
+        }
+        `}</style>
         <div style={{ maxWidth: "450px", margin: "0 auto" }}>
           <Slider {...settings}>
             <div>
