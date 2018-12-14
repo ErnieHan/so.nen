@@ -4,16 +4,20 @@ import { HashRouter, Route } from "react-router-dom";
 import Layout from "./Components/Layout";
 import Header from "./Components/Header";
 import Home from "./Pages/Home";
-import About from "./Pages/About";
+import Recipe from "./Pages/Recipe";
+import Kitchenware from "./Pages/Kitchenware";
+import Shop from "./Pages/Shop";
 
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/calendar">
+      <HashRouter>
         <Layout>
           <Header />
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/recipe" component={Recipe} />
+          <Route path="/kitchenware" component={Kitchenware} />
+          <Route path="/shop" component={Shop} />
         </Layout>
       </HashRouter>
     );
