@@ -12,6 +12,9 @@ class Header extends React.Component {
             padding:60px 15px 15px;
             text-align:center;
           }
+          nav{
+            width:100%;
+          }
           .navlist li{
             display:inline-block;
             padding:15px;
@@ -22,7 +25,7 @@ class Header extends React.Component {
         <nav>
           <ul className="navlist">
             <Link to="/">
-              <li>弁当</li>
+              <li>弁當</li>
             </Link>
             <Link to="/recipe">
               <li>食譜</li>

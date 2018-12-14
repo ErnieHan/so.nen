@@ -1,11 +1,11 @@
 import React from "react";
+import Bento from "../Components/Bento";
 
 class Home extends React.Component {
   render() {
     return (
       <div>
-        <h1>HOMEPAGE</h1>
-        <h1>SO.NEN</h1>
+        <Bento />
       </div>
     );
   }
