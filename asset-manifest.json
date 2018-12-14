@@ -1,13 +1,14 @@
 {
-  "main.css": "/so.nen/static/css/main.e9ace8c9.chunk.css",
-  "main.js": "/so.nen/static/js/main.086b0f0c.chunk.js",
-  "main.js.map": "/so.nen/static/js/main.086b0f0c.chunk.js.map",
-  "static/js/1.e78de7d8.chunk.js": "/so.nen/static/js/1.e78de7d8.chunk.js",
-  "static/js/1.e78de7d8.chunk.js.map": "/so.nen/static/js/1.e78de7d8.chunk.js.map",
+  "main.css": "/so.nen/static/css/main.3ba9bb98.chunk.css",
+  "main.js": "/so.nen/static/js/main.a4174643.chunk.js",
+  "main.js.map": "/so.nen/static/js/main.a4174643.chunk.js.map",
+  "static/js/1.6622321d.chunk.js": "/so.nen/static/js/1.6622321d.chunk.js",
+  "static/js/1.6622321d.chunk.js.map": "/so.nen/static/js/1.6622321d.chunk.js.map",
   "runtime~main.js": "/so.nen/static/js/runtime~main.3f1a862e.js",
   "runtime~main.js.map": "/so.nen/static/js/runtime~main.3f1a862e.js.map",
-  "static/css/main.e9ace8c9.chunk.css.map": "/so.nen/static/css/main.e9ace8c9.chunk.css.map",
+  "static/media/logo.svg": "/so.nen/static/media/logo.e0b91a80.svg",
+  "static/css/main.3ba9bb98.chunk.css.map": "/so.nen/static/css/main.3ba9bb98.chunk.css.map",
   "index.html": "/so.nen/index.html",
-  "precache-manifest.8775e0b83cba56593a5384dbc3b1c0f6.js": "/so.nen/precache-manifest.8775e0b83cba56593a5384dbc3b1c0f6.js",
+  "precache-manifest.3240ffd0149a1aeed3fe004cbc58d9f7.js": "/so.nen/precache-manifest.3240ffd0149a1aeed3fe004cbc58d9f7.js",
   "service-worker.js": "/so.nen/service-worker.js"
 }
