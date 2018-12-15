@@ -1,69 +1,72 @@
 import React from "react";
-// import img1 from "../Assets/01.jpg";
 
 class Bento extends React.Component {
   render() {
-    // const bentoList = [
-    //   {
-    //     title: "秋冬限定！用豐富肥美的油脂來料理鹽烤鯖魚！",
-    //     content: "鯖魚可說是CP值相當高的食材，秋冬尤其肥美。不過冷凍跟加...",
-    //     img: img1
-    //   },
-    //   {
-    //     title: "秋冬限定！用豐富肥美的油脂來料理鹽烤鯖魚！",
-    //     content: "鯖魚可說是CP值相當高的食材，秋冬尤其肥美。不過冷凍跟加...",
-    //     img: img1
-    //   },
-    //   {
-    //     title: "秋冬限定！用豐富肥美的油脂來料理鹽烤鯖魚！",
-    //     content: "鯖魚可說是CP值相當高的食材，秋冬尤其肥美。不過冷凍跟加...",
-    //     img: img1
-    //   },
-    //   {
-    //     title: "秋冬限定！用豐富肥美的油脂來料理鹽烤鯖魚！",
-    //     content: "鯖魚可說是CP值相當高的食材，秋冬尤其肥美。不過冷凍跟加...",
-    //     img: img1
-    //   }
-    // ];
     return (
-      <div>
+      <div className="bento-content">
         <style>
           {`
-          .bento-outline{
-              width:25%;
-              height:400px;
-              background:#ccc;
-              display:inline-block;
-          }
-          .bento-content{
-              width:100%;
-              height:400px;
-              background:#ffffff;
-              border-radius: 5px;
-          }
-          .bento-img{
-              
-          }
-          .bento-text{
-              padding:10px 0;
-          }
-          `}
+            @keyframes showBento {
+              0%{
+                transform:scale(0)
+              }
+              100%{
+                transform:scale(1)
+              }
+            }
+            .bento-content{
+              width:23%;
+              margin-bottom:20px;
+              padding:1%;
+            }
+            .bento{
+              background:#FFF;
+              border:1px solid #E9E8E7;
+              border-radius:5px;
+              padding:10px;
+              transform:scale(0);
+              animation: showBento .5s .5s forwards;
+            }
+            .bento-img{
+              overflow:hidden;
+            }
+            .bento-img img{
+              border-radius:5px;
+            }
+            .bento-text p{
+              font-weight:100;
+            }
+            .bento-date{
+              margin-top:10px;
+              color:#ccc;
+              font-family:"Noto Sans TC";
+              letter-spacing: 1.2px;
+            }
+            @media only screen and (max-width:991px){
+              .bento-content{
+                width:48%;
+              }
+            }
+            @media only screen and (max-width:767px){
+              .bento-text h2{
+                font-size:20px;
+              }
+              .bento-text p{
+                font-size:10px;
+              }
+            }
+        `}
         </style>
-        {/* {bentoList.map((data, i) => (
-          <div className="bento-content">
-            <div className="bento-img">
-              <img src={img1} alt="" />
-            </div>
-            <div className="bento-text" key={i}>
-              <h3 style={{ fontSize: "16pt" }}>{data.title}</h3>
-              <p style={{ fontSize: "10pt", color: "#333" }}>{data.content}</p>
-            </div>
+        <div className="bento">
+          <div className="bento-img">
+            <img src={this.props.img} alt="" />
           </div>
-        ))} */}
-        <div className="bento-outline" />
-        <div className="bento-outline" />
-        <div className="bento-outline" />
-        <div className="bento-outline" />
+          <div className="bento-text">
+            <h2>{this.props.title}</h2>
+            <p>{this.props.content}</p>
+            <p className="bento-date">12月15日(土)</p>
+          </div>
+        </div>
       </div>
     );
   }
