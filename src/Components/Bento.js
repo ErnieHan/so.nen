@@ -26,6 +26,11 @@ class Bento extends React.Component {
               padding:10px;
               transform:scale(0);
               animation: showBento .5s .5s forwards;
+              cursor:pointer;
+              transition:box-shadow .5s;
+            }
+            .bento:hover{
+              box-shadow:0px 0px 30px -10px black;
             }
             .bento-img{
               overflow:hidden;
@@ -48,6 +53,9 @@ class Bento extends React.Component {
               }
             }
             @media only screen and (max-width:767px){
+              .bento-content{
+                width:98%;
+              }
               .bento-text h2{
                 font-size:20px;
               }

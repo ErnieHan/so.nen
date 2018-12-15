@@ -6,6 +6,7 @@ import img1 from "../Assets/01.jpg";
 import img2 from "../Assets/02.jpg";
 import img3 from "../Assets/03.jpg";
 import img4 from "../Assets/04.jpg";
+import BentoLightBox from "../Components/BentoLightBox";
 
 class Home extends React.Component {
   render() {
@@ -69,8 +70,8 @@ class Home extends React.Component {
               content={data.content}
             />
           ))}
-          {/* <Bento /> */}
         </Gallery>
+        {/* <BentoLightBox /> */}
         {/* <SlickPhoto /> */}
       </div>
     );

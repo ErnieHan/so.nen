@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import Recipe from "./Pages/Recipe";
 import Kitchenware from "./Pages/Kitchenware";
 import Shop from "./Pages/Shop";
+import Footer from "./Components/Footer";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route path="/recipe" component={Recipe} />
           <Route path="/kitchenware" component={Kitchenware} />
           <Route path="/shop" component={Shop} />
+          <Footer />
         </Layout>
       </HashRouter>
     );
