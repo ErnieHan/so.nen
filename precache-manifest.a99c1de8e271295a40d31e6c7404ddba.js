@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/so.nen/static/media/03.9da747bd.jpg"
   },
   {
-    "revision": "58dc6241252d707800c6",
-    "url": "/so.nen/static/css/main.61aba754.chunk.css"
+    "revision": "474dd971e5dbd8ae034d",
+    "url": "/so.nen/static/css/main.6c06982f.chunk.css"
   },
   {
-    "revision": "70fe10ae7a388e9b8367",
-    "url": "/so.nen/static/js/1.70fe10ae.chunk.js"
+    "revision": "1ff65d85a1bc68f10e13",
+    "url": "/so.nen/static/js/1.1ff65d85.chunk.js"
   },
   {
     "revision": "3f1a862e8fe1572647b7",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/so.nen/static/media/02.b9a82c0b.jpg"
   },
   {
-    "revision": "58dc6241252d707800c6",
-    "url": "/so.nen/static/js/main.58dc6241.chunk.js"
+    "revision": "474dd971e5dbd8ae034d",
+    "url": "/so.nen/static/js/main.474dd971.chunk.js"
   },
   {
     "revision": "e0b91a80a80435fd357d43cc7107c452",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/so.nen/static/media/footer-twitter.b0420f13.svg"
   },
   {
-    "revision": "8128a7b1bf6e22079a8cd3888acc73ca",
+    "revision": "6279b223ed51e6c17bda312d4362a5e4",
     "url": "/so.nen/index.html"
   }
 ];
