@@ -1,5 +1,4 @@
 import React from "react";
-import Bento from "./Bento";
 
 class BentoLightBox extends React.Component {
   render() {
@@ -16,9 +15,14 @@ class BentoLightBox extends React.Component {
               top:0;
               left:0;
           }
+          .lightbox-content{
+              width:336mm;
+              height:182mm;
+              background:white;
+          }
         `}
         </style>
-        123
+        <div className="ligtbox-content"> 123 </div>
       </div>
     );
   }
