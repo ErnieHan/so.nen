@@ -27,10 +27,6 @@ class Bento extends React.Component {
               transform:scale(0);
               animation: showBento .5s .5s forwards;
               cursor:pointer;
-              transition:box-shadow .5s;
-            }
-            .bento:hover{
-              box-shadow:0px 0px 30px -10px black;
             }
             .bento-img{
               overflow:hidden;
@@ -38,8 +34,13 @@ class Bento extends React.Component {
             .bento-img img{
               border-radius:5px;
             }
+            .bento-text h2{
+              font-size:20px;
+            }
             .bento-text p{
+              font-size:12.5px;
               font-weight:100;
+              line-height:1.6;
             }
             .bento-date{
               margin-top:10px;
