@@ -61,6 +61,7 @@ class Home extends React.Component {
     ];
     return (
       <div>
+        <h1>HomePage</h1>
         <Gallery>
           {bentoList.map((data, i) => (
             <Bento
