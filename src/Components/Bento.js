@@ -55,26 +55,32 @@ class Bento extends React.Component {
             }
             @media only screen and (max-width:767px){
               .bento-content{
-                width:98%;
+                width:48%;
               }
               .bento-text h2{
-                font-size:20px;
+                font-size:16px;
+                display:none;
               }
               .bento-text p{
-                font-size:10px;
+                font-size:12px;
+                display:none;
               }
             }
         `}
         </style>
         <div className="bento">
           <div className="bento-img">
-            <img src={this.props.img} alt="" />
+            <img
+              src={require(`../Assets/bento/bento${this.props.img}.jpg`)}
+              alt=""
+            />
           </div>
           <div className="bento-text">
             <h2>{this.props.title}</h2>
             <p>{this.props.content}</p>
             <p className="bento-date">12月15日(土)</p>
           </div>
+          {console.log(this.props.img)}
         </div>
       </div>
     );
