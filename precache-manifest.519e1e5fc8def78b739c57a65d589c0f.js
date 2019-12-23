@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/so.nen/static/js/runtime~main.3f1a862e.js"
   },
   {
-    "revision": "f26a14ac989cd15213b5",
-    "url": "/so.nen/static/js/main.f26a14ac.chunk.js"
+    "revision": "da93d0582e1dc552694d",
+    "url": "/so.nen/static/js/main.da93d058.chunk.js"
   },
   {
-    "revision": "63b6c4fdcf882ced6aca",
-    "url": "/so.nen/static/js/1.63b6c4fd.chunk.js"
+    "revision": "cd4abe95f8c9a8405f0c",
+    "url": "/so.nen/static/js/1.cd4abe95.chunk.js"
   },
   {
-    "revision": "f26a14ac989cd15213b5",
+    "revision": "da93d0582e1dc552694d",
     "url": "/so.nen/static/css/main.b9ade371.chunk.css"
   },
   {
-    "revision": "b8580ad9e62ef1d4f85e9a374ab2c7ae",
+    "revision": "478ae7c16040dc0ff60eb28faa5e4b0f",
     "url": "/so.nen/index.html"
   }
 ];
