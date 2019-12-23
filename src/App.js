@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import Layout from "./Components/Layout";
 import Header from "./Components/Header";
@@ -22,7 +21,9 @@ class App extends Component {
         <Layout>
           <Header />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/">
+              <Home />
+            </Route>
             <Route path="/recipe" component={Recipe} />
             <Route path="/kitchenware" component={Kitchenware} />
             <Route path="/shop" component={Shop} />
