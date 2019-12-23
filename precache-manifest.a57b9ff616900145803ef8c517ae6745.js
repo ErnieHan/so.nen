@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/so.nen/static/media/footer-fb.7cbd8477.svg"
   },
   {
-    "revision": "0c6ba12febbadfb5334f",
+    "revision": "8016b769fd7671bb2e3b",
     "url": "/so.nen/static/css/main.bafcc62b.chunk.css"
   },
   {
-    "revision": "7039987a433a303f2bcb",
-    "url": "/so.nen/static/js/1.7039987a.chunk.js"
+    "revision": "8f0b0ccf3ebb6547dbd3",
+    "url": "/so.nen/static/js/1.8f0b0ccf.chunk.js"
   },
   {
     "revision": "3f1a862e8fe1572647b7",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/so.nen/static/media/logo.e0b91a80.svg"
   },
   {
-    "revision": "0c6ba12febbadfb5334f",
-    "url": "/so.nen/static/js/main.0c6ba12f.chunk.js"
+    "revision": "8016b769fd7671bb2e3b",
+    "url": "/so.nen/static/js/main.8016b769.chunk.js"
   },
   {
     "revision": "5a317bd184d4497f228bc2c7a7722258",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/so.nen/static/media/footer-twitter.b0420f13.svg"
   },
   {
-    "revision": "b4c4614f02b2e71b88981c3a1837297f",
+    "revision": "55c92449657c1d55c6df262f59ca76f0",
     "url": "/so.nen/index.html"
   }
 ];
