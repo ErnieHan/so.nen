@@ -10,18 +10,15 @@ class Box extends Component {
     return (
       <Content>
         <BoxContent>
-          <Image>
+          <Image order={image % 2 === 0}>
             <img
               data-src={`${HOST_URL}/images/bento/bento${image}.jpg`}
               className="lazyload"
               alt=""
             />
           </Image>
-          <Body>
-            <h3>
-              {item.title}
-              {image}
-            </h3>
+          <Body order={image % 2 === 0}>
+            <h3>{item.title}</h3>
             <p>{item.content}</p>
           </Body>
         </BoxContent>

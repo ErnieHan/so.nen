@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Layout from "./Components/Layout";
 import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import Recipe from "./Pages/Recipe";
 import Kitchenware from "./Pages/Kitchenware";
 import Shop from "./Pages/Shop";
-import Footer from "./Components/Footer";
+import Footer from "./Components/Footer/index";
+import ProductPage from "./Pages/ProductPage";
 
 export const Whoops404 = () => (
   <div>
@@ -17,21 +18,25 @@ export const Whoops404 = () => (
 class App extends Component {
   render() {
     return (
-      <HashRouter>
-        <Layout>
-          <Header />
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/recipe" component={Recipe} />
-            <Route path="/kitchenware" component={Kitchenware} />
-            <Route path="/shop" component={Shop} />
-            <Route component={Whoops404} />
-          </Switch>
+      <Router>
+        <>
+          <Layout>
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route exact path="/product/:id">
+                <ProductPage />
+              </Route>
+              <Route path="/recipe" component={Recipe} />
+              <Route path="/kitchenware" component={Kitchenware} />
+              <Route path="/shop" component={Shop} />
+              <Route component={Whoops404} />
+            </Switch>
+          </Layout>
           <Footer />
-        </Layout>
-      </HashRouter>
+        </>
+      </Router>
     );
   }
 }

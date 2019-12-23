@@ -2,12 +2,14 @@ import React from "react";
 import Masonry from "react-masonry-component";
 import Box from "../Components/Box";
 import { data } from "../Components/Box/data";
+import Loading from "../Components/Loading";
 
 class Home extends React.Component {
   state = {
     bentoLists: [],
     start: 0,
-    loadMore: false
+    loadMore: false,
+    loading: false
   };
   componentDidMount() {
     // 先取10項商品
@@ -51,8 +53,12 @@ class Home extends React.Component {
       }
       this.setState({
         bentoLists: bentoLists,
-        start: false
+        start: false,
+        loading: true
       });
+      setTimeout(() => {
+        this.setState({ loading: false });
+      }, 1000);
     } else {
       window.removeEventListener("scroll", this.handleScroll);
     }
@@ -60,12 +66,13 @@ class Home extends React.Component {
 
   render() {
     const masonryOptions = {
-      transitionDuration: 500
+      transitionDuration: 800
     };
     const imagesLoadedOptions = { background: ".my-bg-image-el" };
-    const { bentoLists } = this.state;
+    const { bentoLists, loading } = this.state;
     return (
       <>
+        {loading && <Loading />}
         <Masonry
           className={"my-gallery-class"}
           options={masonryOptions}
