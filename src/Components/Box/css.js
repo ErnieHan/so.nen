@@ -33,3 +33,15 @@ export const Body = styled.div`
     margin-bottom: 0.5rem;
   }
 `;
+
+export const Image = styled.div`
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  background: #e9e8e7;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+`;

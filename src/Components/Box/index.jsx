@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { Content, BoxContent, Body } from "./css";
+import { Content, BoxContent, Body, Image } from "./css";
 import { HOST_URL } from "../../constants";
+import "lazysizes";
+import "lazysizes/plugins/parent-fit/ls.parent-fit";
 
 class Box extends Component {
   render() {
@@ -8,7 +10,13 @@ class Box extends Component {
     return (
       <Content>
         <BoxContent>
-          <img src={`${HOST_URL}/images/bento/bento${image}.jpg`} alt="" />
+          <Image>
+            <img
+              data-src={`${HOST_URL}/images/bento/bento${image}.jpg`}
+              className="lazyload"
+              alt=""
+            />
+          </Image>
           <Body>
             <h3>
               {item.title}
