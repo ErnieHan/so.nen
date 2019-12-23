@@ -47,8 +47,9 @@ export const Body = styled.div`
   padding: 1rem;
   h3 {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     margin-bottom: 0.5rem;
+    font-family: "Noto Sans TC";
   }
   p {
     font-size: 1rem;

@@ -72,7 +72,7 @@ class Home extends React.Component {
     const { bentoLists, loading } = this.state;
     return (
       <>
-        {loading && <Loading />}
+        {/* {loading && <Loading />} */}
         <Masonry
           className={"my-gallery-class"}
           options={masonryOptions}

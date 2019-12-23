@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Layout from "./Components/Layout";
-import Header from "./Components/Header";
+// import Header from "./Components/Header";
 import Home from "./Pages/Home";
 import Recipe from "./Pages/Recipe";
 import Kitchenware from "./Pages/Kitchenware";
 import Shop from "./Pages/Shop";
 import Footer from "./Components/Footer/index";
 import ProductPage from "./Pages/ProductPage";
+import Header from "./Components/Header/index";
 
 export const Whoops404 = () => (
   <div>
@@ -20,6 +21,7 @@ class App extends Component {
     return (
       <Router>
         <>
+          <Header />
           <Layout>
             <Switch>
               <Route exact path="/">
