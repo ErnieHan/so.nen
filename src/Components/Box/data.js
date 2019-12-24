@@ -5,8 +5,10 @@ export const data = [
     id: 0
   },
   {
-    title: "用簡單的材料輕鬆變出好吃的御好燒！還要在便當裡用美乃滋拉花！",
-    content: "御好燒又稱為大阪燒、什錦燒或隨意燒，是源自日本的一種鐵⋯",
+    title:
+      "簡単な材料で簡単にお好み焼きを簡単に作れます！弁当にもマヨネーズを使用してください！",
+    content:
+      "お好み焼きは、大阪焼き、盛り合わせ焼き、カジュアル焼きとも呼ばれ、日本の鉄ironの一種です⋯",
     id: 1
   },
   {
@@ -21,7 +23,7 @@ export const data = [
     id: 3
   },
   {
-    title: "秋冬限定！用豐富肥美的油脂來料理鹽烤鯖魚！",
+    title: "自己做！馬鈴薯可樂餅！",
     content:
       "鯖魚可說是CP值相當高的食材，秋冬尤其肥美。不過冷凍跟加鯖魚可說是CP值相當高的食材，秋冬尤其肥美。不過冷凍跟加...鯖魚可說是CP值相當高的食材，秋冬尤其肥美。不過冷凍跟加...",
     id: 4
@@ -37,12 +39,15 @@ export const data = [
     id: 6
   },
   {
-    title: "明太子炒麵麵包！炸蝦麵包！塔塔醬也要自己做！",
-    content: "炒麵絕對是日本卡通裡祭典的經典小吃之一，利用明太子的料",
+    title:
+      "Ming prince fried noodle bread! Fried shrimp bread! Make your own Tata sauce!",
+    content:
+      "Fried noodles are definitely one of the classic snacks in Japanese cartoon festivals...",
     id: 7
   },
   {
-    title: "明太子炒麵麵包！炸蝦麵包！塔塔醬也要自己做！",
+    title:
+      "簡単な材料で簡単にお好み焼きを簡単に作れます！弁当にもマヨネーズを使用してください！",
     content: "炒麵絕對是日本卡通裡祭典的經典小吃之一，利用明太子的料",
     id: 8
   },

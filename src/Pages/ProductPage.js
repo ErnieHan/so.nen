@@ -8,6 +8,9 @@ class ProductPage extends Component {
     getData: null
   };
   componentDidMount() {
+    window.scrollTo({
+      top: 0
+    });
     const { id } = this.props.match.params;
     if (data[id]) {
       this.setState({

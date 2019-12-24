@@ -31,6 +31,7 @@ export const Image = styled.div`
   padding-bottom: 100%;
   position: relative;
   background: #e9e8e7;
+  cursor: pointer;
   img {
     position: absolute;
     top: 0;
@@ -49,7 +50,11 @@ export const Body = styled.div`
     font-weight: bold;
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
-    font-family: "Noto Sans TC";
+    font-family: "Lato", "Noto Sans JP", "Noto Sans TC", 微軟正黑體;
+    cursor: pointer;
+    &:hover {
+      color: tan;
+    }
   }
   p {
     font-size: 1rem;

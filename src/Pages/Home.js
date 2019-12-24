@@ -2,7 +2,7 @@ import React from "react";
 import Masonry from "react-masonry-component";
 import Box from "../Components/Box";
 import { data } from "../Components/Box/data";
-import Loading from "../Components/Loading";
+// import Loading from "../Components/Loading";
 
 class Home extends React.Component {
   state = {
@@ -19,6 +19,17 @@ class Home extends React.Component {
       bentoLists: editLists
     });
     window.addEventListener("scroll", this.handleScroll);
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    if (
+      nextState.bentoLists !== this.state.bentoLists ||
+      nextState.start !== this.state.start ||
+      nextState.loadMore !== this.state.loadMore ||
+      nextState.loading !== this.state.loading
+    )
+      return true;
+    return false;
   }
 
   handleScroll = () => {
